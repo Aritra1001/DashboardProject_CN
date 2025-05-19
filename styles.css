@@ -1,0 +1,58 @@
+/* after downloading the ttf file we can make that file available to our project using @font-face and then use it in the body */
+
+/* @font-face {
+  font-family: "Roboto";
+  src: url(./Roboto-VariableFont_wdth\wght.ttf);
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap:20px;
+    padding: 20px;
+}
+
+.left{
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border-radius: 30px;
+    position: sticky;
+    top: 20px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile img{
+    height: 75%;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.profile p{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+.nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.right{
+    background-color: aquamarine;
+}
