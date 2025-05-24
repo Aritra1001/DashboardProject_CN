@@ -13,7 +13,10 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=list"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
@@ -28,27 +31,72 @@
           <p>John Doe</p>
         </div>
         <div class="nav">
-          <span class="material-symbols-outlined"> list </span>
-          <p>DASHBOARD</p>
+          <i class="fa-solid fa-list"></i>
+          <a href="#dashboard"> DASHBOARD </a>
         </div>
         <div class="nav">
-          <span class="material-symbols-outlined"> sell </span>
-          <p>DATA</p>
+          <i class="fa-solid fa-tags"></i>
+          <a href="#data"> DATA </a>
         </div>
         <div class="nav">
-          <span class="material-symbols-outlined"> person </span>
-          <p>USERS</p>
+          <i class="fa-solid fa-user"></i>
+          <a href="#users"> USERS </a>
         </div>
         <div class="nav">
-          <span class="material-symbols-outlined"> calendar_month </span>
-          <p>SCHEDULE</p>
+          <i class="fa-solid fa-calendar-days"></i>
+          <a href="#schedule"> SCHEDULE </a>
         </div>
         <div class="nav">
-          <span class="material-symbols-outlined"> settings </span>
-          <p>CONTACT</p>
+          <i class="fa-solid fa-gear"></i>
+          <a href="#contact"> CONTACT </a>
         </div>
       </section>
-      <section class="right"></section>
+      <section class="right">
+        <header>
+          <h1>Dashboard</h1>
+          <input type="text" placeholder="search..." />
+        </header>
+        <article id="dashboard">
+          <div class="board-header">
+            <h3>ACTIVITIES</h3>
+            <p>May-June 2024</p>
+          </div>
+          <div class="board-img-container">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/018/922/755/small/infographic-color-symbol-png.png"
+              alt="chart image"
+            />
+          </div>
+        </article>
+        <article id="data">
+          <h2>Dashboard Data</h2>
+          <div class="card-data-con">
+            <div class="card" id="card-1">
+              <i class="fa-solid fa-dollar-sign"></i>
+              <p class="cardHead">Total Revenue</p>
+              <p class="cardData">$ 456,232,114</p>
+            </div>
+            <div class="card" id="card-2">
+              <i class="fa-solid fa-tag"></i>
+              <p class="cardHead">Total Transaction</p>
+              <p class="cardData">1,450</p>
+            </div>
+            <div class="card" id="card-3">
+              <i class="fa-solid fa-thumbs-up"></i>
+              <p class="cardHead">Total Likes</p>
+              <p class="cardData">1,234</p>
+            </div>
+            <div class="card" id="card-4">
+              <i class="fa-solid fa-user"></i>
+              <p class="cardHead">Total User</p>
+              <p class="cardData">856</p>
+            </div>
+          </div>
+        </article>
+        <article id="users"></article>
+        <article id="schedule"></article>
+        <article id="contact"></article>
+      </section>
     </main>
   </body>
 </html>
