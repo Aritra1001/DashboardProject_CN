@@ -260,10 +260,88 @@ table tbody tr:hover {
   margin: 0px;
 }
 
-.schedule-list-con > p{
-    font-weight:400;
-    font-size: 12px;
-    margin-top: 5px;
-    /* color: rgb(160, 159, 159); */
-    color: #999999;
+.schedule-list-con > p {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 5px;
+  /* color: rgb(160, 159, 159); */
+  color: #999999;
+}
+
+#contact {
+  width: 90%;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+#contact > h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contact-content-con {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.map {
+  height: 370px;
+  width: 100%;
+}
+
+.map > iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.contact-form-con {
+  background-color: #fff;
+  height: 350px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.contact-form-con > h2 {
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contact-form-con form > input,
+.contact-form-con form > textarea {
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #999999;
+}
+
+.contact-form-con form > input {
+  height: 25px;
+}
+
+.contact-form-con form > textarea {
+  height: 120px;
+}
+
+.contact-form-con form > button {
+  background-color: lightgreen;
+  border: none;
+  height: 35px;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 93%;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
 }
