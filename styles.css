@@ -109,6 +109,17 @@ header > input::placeholder {
   color: lightgrey;
 }
 
+article h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+article h2:hover{
+    text-decoration-color: goldenrod;
+    font-size: 32px;
+    transition: 1s;
+}
+
 #dashboard {
   background-color: #fff;
   border-radius: 10px;
@@ -132,10 +143,10 @@ header > input::placeholder {
   margin-left: 50px;
 }
 
-#data > h2 {
+/* #data > h2 {
   text-align: center;
   text-decoration: underline;
-}
+} */
 
 .card-data-con {
   display: flex;
@@ -192,12 +203,8 @@ header > input::placeholder {
 }
 
 #users {
-  margin-left: 70px;
-}
-
-#users > h2 {
-  text-align: center;
-  text-decoration: underline;
+  margin-left: 50px;
+  width: 90%;
 }
 
 #users > table {
@@ -274,10 +281,10 @@ table tbody tr:hover {
   padding: 10px;
 }
 
-#contact > h2 {
+/* #contact > h2 {
   text-align: center;
   text-decoration: underline;
-}
+} */
 
 .contact-content-con {
   width: 100%;
@@ -344,4 +351,26 @@ table tbody tr:hover {
   color: white;
   font-weight: bold;
   font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer div {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: lightgrey;
 }
