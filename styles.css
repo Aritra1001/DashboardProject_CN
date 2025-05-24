@@ -112,7 +112,7 @@ header > input::placeholder {
 #dashboard {
   background-color: #fff;
   border-radius: 10px;
-  width: 85%;
+  width: 90%;
   margin-left: 50px;
   padding: 10px;
 }
@@ -191,8 +191,8 @@ header > input::placeholder {
   margin-left: 10px;
 }
 
-#users{
-    margin-left: 70px;
+#users {
+  margin-left: 70px;
 }
 
 #users > h2 {
@@ -207,20 +207,63 @@ header > input::placeholder {
   background-color: white;
 }
 
-table th, table td{
-    padding: 15px 100px;
-    text-align: left;
+table th,
+table td {
+  padding: 15px 100px;
+  text-align: left;
 }
 
-thead th{
-    background-color: #a39696;
-    font-weight: 600;
+thead th {
+  background-color: #a39696;
+  font-weight: 600;
 }
 
-table tbody tr:nth-child(even){
-    background-color: #f9f9f9;
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
-table tbody tr:hover{
-    background-color: #eaeaea;
+table tbody tr:hover {
+  background-color: #eaeaea;
+}
+
+#schedule {
+  background-color: #fff;
+  margin-left: 50px;
+  width: 88%;
+  border-radius: 20px;
+  padding: 10px 20px;
+  height: 350px;
+  overflow: auto;
+}
+
+.schedule-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schedule-list-con {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.schedule-list-con:nth-child(even) {
+  border-left: 3px solid blue;
+}
+
+.schedule-list-con:nth-child(odd) {
+  border-left: 3px solid lightgreen;
+}
+
+.schedule-list-con > h4,
+.schedule-list-con > p {
+  margin: 0px;
+}
+
+.schedule-list-con > p{
+    font-weight:400;
+    font-size: 12px;
+    margin-top: 5px;
+    /* color: rgb(160, 159, 159); */
+    color: #999999;
 }
