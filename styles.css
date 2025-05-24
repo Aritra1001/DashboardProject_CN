@@ -153,7 +153,8 @@ header > input::placeholder {
 .card:hover {
   background: radial-gradient(
     circle,
-    rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
   );
 }
 
@@ -188,4 +189,38 @@ header > input::placeholder {
   margin-top: 4px;
   font-size: 16px;
   margin-left: 10px;
+}
+
+#users{
+    margin-left: 70px;
+}
+
+#users > h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#users > table {
+  width: 95%;
+  border-collapse: collapse;
+  border-radius: 20px;
+  background-color: white;
+}
+
+table th, table td{
+    padding: 15px 100px;
+    text-align: left;
+}
+
+thead th{
+    background-color: #a39696;
+    font-weight: 600;
+}
+
+table tbody tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover{
+    background-color: #eaeaea;
 }
