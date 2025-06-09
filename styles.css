@@ -381,7 +381,39 @@ footer a:hover {
 /* when the screen width is less than 780px, navbar should go on top */
 @media screen and (width<=780px){
 /* @media screen and (max-width:780px){ */
-  body{
-    background-color: red;
+  main{
+    display: block;
+  }
+
+  .left{
+    position: static;
+    height: auto;
+    /* z-index: -1; */
+  }
+
+  .profile-img {
+    width: 15%;
+    position: absolute;
+    top: 0.1rem;
+  }
+
+  .profile p{
+    margin-top: 5.5rem;
+  }
+
+  .navbar{
+    display: flex;
+    margin: 0%;
+    justify-content: space-around;
+  }
+
+  .nav{
+    margin:0%;
+    margin-bottom: 20px;
+    /* padding: 0%; */
+  }
+
+  .navbar i{
+    display: none;
   }
 }
